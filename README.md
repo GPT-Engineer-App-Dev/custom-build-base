@@ -1,38 +1,58 @@
-# custom-build-base
+# Bare-Bones Web Application
 
-Create a bare-bones application that I can modify and build on.
+This is a minimal web application setup using React, Tailwind CSS, and Vite. It provides a basic structure to start building your application.
 
-## Collaborate with GPT Engineer
+## Features
 
-This is a [gptengineer.app](https://gptengineer.app)-synced repository 🌟🤖
+1. Basic HTML structure
+2. Simple CSS for styling
+3. Basic JavaScript setup
 
-Changes made via gptengineer.app will be committed to this repo.
+## Getting Started
 
-If you clone this repo and push changes, you will have them reflected in the GPT Engineer UI.
+### Prerequisites
 
-## Tech stack
+Make sure you have Node.js and npm installed on your machine.
 
-This project is built with React with shadcn-ui and Tailwind CSS.
+### Installation
 
-- Vite
-- React
-- shadcn/ui
-- Tailwind CSS
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
 
-## Setup
+2. Install the dependencies:
+   ```sh
+   npm install
+   ```
 
-```sh
-git clone https://github.com/GPT-Engineer-App-Dev/custom-build-base.git
-cd custom-build-base
-npm i
-```
+### Running the Application
 
+To start the development server, run:
 ```sh
 npm run dev
 ```
 
-This will run a dev server with auto reloading and an instant preview.
+This will start the application at `http://localhost:3000`.
 
-## Requirements
+### Building for Production
 
-- Node.js & npm - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+To build the application for production, run:
+```sh
+npm run build
+```
+
+The production-ready files will be in the `dist` directory.
+
+### Modifying the Application
+
+- The main entry point of the application is `src/main.jsx`.
+- The home page component is located at `src/pages/Index.jsx`.
+- Global styles are defined in `src/index.css`.
+
+Feel free to modify the components and styles to suit your needs.
+
+## License
+
+This project is licensed under the MIT License.
